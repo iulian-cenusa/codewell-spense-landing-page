@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+    font-family: 'Cabin', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Styles for all views */
+header{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 0.5em;
+}
+header span{
+    text-decoration: underline;
+}
+
+footer{
+    display: grid;
+    color: white;
+    background-color: black;
+    padding: 2em 0.5em 0.5em 0.5em;
+}
+
+#footer-spense , #footer-sitemap , #footer-resources , #footer-company , #footer-opportunities{
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    margin: 0.5em 0 0.5em 0;
+}
+
+#footer-spense span, #footer-sitemap span, #footer-resources span, #footer-company span, #footer-opportunities span{
+    margin: 0 0 0.5em 0;
+    color: white;
+}
+
+#footer-spense{
+    grid-area: header;
+}
+#footer-sitemap{
+    grid-area: sitemap;
+}
+#footer-resources{
+    grid-area: resources;
+}
+#footer-company{
+    grid-area: company;
+}
+#footer-opportunities{
+    grid-area: opportunities;
+}
+
+/*Links*/
+a:link{
+    color: gray;
+    text-decoration: none;
+}
+a:visited{
+    color: gray;
+    text-decoration: none;
+}
+a:hover{
+    color: lightgray;
+    text-decoration: none;
+}
+
+/* Main elements */
+#top , #social-bar , #middle , #bottom {
+    padding: 0.5em;
+}
+
+#top{
+    background-color: rgb(233, 232, 230);
+}
+
+#social-bar{
+    width: 100%;
+    display: grid;
+    align-items: center;
+}

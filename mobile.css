@@ -1,0 +1,136 @@
+@media (min-width: 350px){
+    main , header , footer{
+        width: 350px;
+    }
+    footer{
+        grid-template-areas: 
+        'header header'
+        'company opportunities'   
+        'sitemap resources' 
+        ;
+    }
+    #top-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;    
+        align-items: center;
+        font-weight: 700;
+    }
+    #hamburger-menu{
+        display: flex;
+    }
+    #top-header-menu-middle{
+        display: none;
+    }
+    #top-header-menu-login{
+        display: none;
+    }
+    #hero-img-mobile{
+        width: 100%;
+        margin: 1em 0 1em 0;
+        display: flex;
+    }
+    #hero-img-tablet{
+        display: none;
+    }
+    #top-content{
+        margin: 0 0 1em 0;
+        color: gray;
+    }
+    #top-content h1  {
+        margin: 0 0 0.25em 0;
+        color: black;
+    }
+    .check-element{
+        margin: 0.25em 0 0.5em 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .check-element p{
+        margin: 0 0 0 0.5em;
+    }
+
+    #get-started{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 1em 0 2em 0;
+    }
+
+    #get-started input{
+        height: 50px;
+        border-radius: 5px;
+        border: 1px solid gray;
+    }
+
+    ::-webkit-input-placeholder {
+        text-align: center;
+      }
+      
+    :-moz-placeholder {
+        text-align: center;
+    }
+
+    #get-started button{
+        height: 50px;
+        width: 250px;
+        margin: 0 0 0 1em;
+        border-radius: 5px;
+        border: none;
+        background-color: black;
+        color: white;
+    }
+
+    #social-bar{
+        grid-template-columns: 105px 105px 105px;
+        grid-gap: 11px;
+        margin: 2em 0 2em 0;
+    }
+
+    #social-bar img{
+        width: 100%;
+    }
+
+    #pinetest , #twitter{
+        display: none;
+    }
+
+    #middle{
+        background-color: rgb(233, 232, 230);
+        margin: 0.5em;
+        height: 575px;
+        border-radius: 5px;
+        background-image: url(./Assets/Phone\ Mockup\ \(Mobile\).png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 95%;
+    }
+
+    #middle h1{
+        padding: 0.5em 1em 0.25em 1em;
+    }
+
+    #middle p{
+        padding: 0 1em 1em 2em;
+    }
+
+    #middle a{
+        padding: 0 1em 0.25em 2em;
+    }
+
+    #bottom{
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+    }
+
+    #bottom h1 , #bottom p, #bottom a {
+        margin: 0 0 0.25em 0;
+    }
+    #bottom img{
+        width: 100%;
+    }
+}
