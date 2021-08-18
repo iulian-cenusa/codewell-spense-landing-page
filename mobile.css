@@ -16,6 +16,9 @@
         align-items: center;
         font-weight: 700;
     }
+    #desktop-right{
+        display: none;
+    }
     #hamburger-menu{
         display: flex;
     }
@@ -85,8 +88,8 @@
     }
 
     #social-bar{
-        grid-template-columns: 105px 105px 105px;
-        grid-gap: 11px;
+        /*grid-template-columns: 105px 105px 105px;
+        grid-gap: 11px;*/
         margin: 2em 0 2em 0;
     }
 
@@ -94,13 +97,13 @@
         width: 100%;
     }
 
-    #pinetest , #twitter{
+    #pinetest , #twitter , #slack , #reddit , #google{
         display: none;
     }
 
     #middle{
         background-color: rgb(233, 232, 230);
-        margin: 0.5em;
+        margin: 1em;
         height: 575px;
         border-radius: 5px;
         background-image: url(./Assets/Phone\ Mockup\ \(Mobile\).png);

@@ -1,3 +1,75 @@
 @media (min-width: 1050px){
+    main , header , footer{
+        width: 100%;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #top{
+        padding: 1.5em 6em 1em 6em;
+    }
+    #hero-img-tablet{
+        display: none;
+    }
+    #desktop-left{
+        width: 60%;
+    }
+    #desktop-right{
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    #desktop-right img{
+        width: 100%;
+    }
+    #top-content{
+        margin: 0 4em 1em 1em;
+    }
+    #top-content p{
+        margin: 0 2em 1em 0;
+    }
+    #social-bar{
+        /*grid-template-columns: repeat(8,125px);
+        grid-gap: 25px;*/
+        margin: 2em 0 2em 0;
+    }
+    #slack , #reddit , #google{
+        display: flex;
+    }
+    #middle{
+        background-image: url(./Assets/Phone\ Mockup\ \(Desktop\).png);
+        background-size: 100%;
+        height: 375px;
+        background-position: right;
+        margin: 1em 7em 2em 7em;
+    }
+    #middle h1{
+        margin: 0 16em 0 0 ;
+    }
+    #middle p{
+        margin: 0 28em 0 0 ;
+    }
+    #bottom{
+        margin: 1em 7em 2em 7em;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+
+    }
+    #bottom img{
+        width: 50%;
+    }
+    #bottom-content{
+        height: 100%;
+    }
+    footer{
+        grid-template-areas: 
+        'header sitemap resources company opportunities';
+    }
 
 }
